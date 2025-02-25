@@ -11,7 +11,6 @@ import org.springframework.security.config.web.server.ServerHttpSecurity;
 import org.springframework.security.web.server.SecurityWebFilterChain;
 
 @SpringBootApplication
-@EnableEurekaServer
 @EnableDiscoveryClient
 public class MefusionApiGatewayApplication {
 
